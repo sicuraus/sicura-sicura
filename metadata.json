@@ -1,6 +1,6 @@
 {
   "name": "sicura-sicura",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "author": "sicura",
   "summary": "Entry point for Sicura compliance management",
   "license": "Apache-2.0",
@@ -59,9 +59,10 @@
     {
       "name": "puppet",
       "version_requirement": ">= 7.24 < 9.0.0"
+    },
+    {
+      "name": "openvox",
+      "version_requirement": ">= 7.24 < 9.0.0"
     }
-  ],
-  "pdk-version": "3.4.0",
-  "template-url": "pdk-default#3.4.0",
-  "template-ref": "tags/3.4.0-0-gd3cc13f"
+  ]
 }
