@@ -1,10 +1,12 @@
 {
   "name": "sicura-sicura",
-  "version": "1.2.1",
-  "author": "sicura",
+  "version": "1.3.0",
+  "author": "Sicura, Inc.",
   "summary": "Entry point for Sicura compliance management",
-  "license": "Apache-2.0",
-  "source": "",
+  "license": "AGPL-3.0-or-later",
+  "project_page": "https://github.com/sicuraus/sicura-sicura",
+  "source": "https://github.com/sicuraus/sicura-sicura.git",
+  "issues_url": "https://github.com/sicuraus/sicura-sicura/issues",
   "dependencies": [
     {
       "name": "simp-simplib",
@@ -15,35 +17,40 @@
     {
       "operatingsystem": "CentOS",
       "operatingsystemrelease": [
-        "9"
+        "9",
+        "10"
       ]
     },
     {
       "operatingsystem": "OracleLinux",
       "operatingsystemrelease": [
         "8",
-        "9"
+        "9",
+        "10"
       ]
     },
     {
       "operatingsystem": "RedHat",
       "operatingsystemrelease": [
         "8",
-        "9"
+        "9",
+        "10"
       ]
     },
     {
       "operatingsystem": "Rocky",
       "operatingsystemrelease": [
         "8",
-        "9"
+        "9",
+        "10"
       ]
     },
     {
       "operatingsystem": "AlmaLinux",
       "operatingsystemrelease": [
         "8",
-        "9"
+        "9",
+        "10"
       ]
     },
     {
@@ -51,7 +58,9 @@
       "operatingsystemrelease": [
         "2016",
         "2019",
-        "2022"
+        "2022",
+        "2025",
+        "11"
       ]
     }
   ],
