@@ -16,7 +16,7 @@ Entry point for Sicura compliance management
 
 #### Examples
 
-##### 
+#####
 
 ```puppet
 include sicura
@@ -58,4 +58,3 @@ simplib::lookup(
     },
   )
 ```
-
