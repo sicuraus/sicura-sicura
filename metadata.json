@@ -1,6 +1,6 @@
 {
   "name": "sicura-sicura",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "author": "Sicura, Inc.",
   "summary": "Entry point for Sicura compliance management",
   "license": "AGPL-3.0-or-later",
@@ -10,7 +10,7 @@
   "dependencies": [
     {
       "name": "simp-simplib",
-      "version_requirement": ">= 4.10.4 < 6.0.0"
+      "version_requirement": ">= 4.10.4 < 8.0.0"
     }
   ],
   "operatingsystem_support": [
@@ -65,10 +65,6 @@
     }
   ],
   "requirements": [
-    {
-      "name": "puppet",
-      "version_requirement": ">= 8.0.0 < 10.0.0"
-    },
     {
       "name": "openvox",
       "version_requirement": ">= 8.0.0 < 10.0.0"
